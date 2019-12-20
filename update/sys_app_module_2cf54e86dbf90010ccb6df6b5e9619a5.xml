@@ -24,17 +24,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2cf54e86dbf90010ccb6df6b5e9619a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Case Resolutions</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Case Task Resolutions</sys_name>
         <sys_overrides/>
         <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
         <sys_policy/>
         <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
         <sys_update_name>sys_app_module_2cf54e86dbf90010ccb6df6b5e9619a5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 01:41:24</sys_updated_on>
+        <sys_updated_on>2019-12-20 09:30:53</sys_updated_on>
         <timeline_page/>
-        <title>Case Resolutions</title>
+        <title>Case Task Resolutions</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
