@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_snc_resolution_st_prb_resolution_summary</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 06:17:05</sys_created_on>
+        <sys_id>3e05438edbbd0010ccb6df6b5e961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_resolution_st_prb_resolution_summary</sys_name>
+        <sys_package display_value="Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+        <sys_update_name>ua_table_licensing_config_3e05438edbbd0010ccb6df6b5e961964</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 06:17:05</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</application>
+        <file_path/>
+        <instance_id>cb98a80edb398c14387021c4059619a4</instance_id>
+        <instance_name>empkdhiman1</instance_name>
+        <name>ua_table_licensing_config_3e05438edbbd0010ccb6df6b5e961964</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_snc_resolution_st_prb_resolution_summary</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 06:17:05</sys_created_on><sys_id>3e05438edbbd0010ccb6df6b5e961964</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_resolution_st_prb_resolution_summary</sys_name><sys_package display_value="Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package><sys_policy/><sys_scope display_value="Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope><sys_update_name>ua_table_licensing_config_3e05438edbbd0010ccb6df6b5e961964</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 06:17:05</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>1207407783</payload_hash>
+        <record_name>x_snc_resolution_st_prb_resolution_summary</record_name>
+        <reverted_from/>
+        <source>bf9f4dc2db390010ccb6df6b5e961903</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 06:17:05</sys_created_on>
+        <sys_id>7605438edbbd0010ccb6df6b5e961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f21f3d4480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 06:17:05</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>be05438e23bd0010ac2ba85e53542165</update_guid>
+        <update_guid_history>be05438e23bd0010ac2ba85e53542165:1207407783</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 06:18:22</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>306fe5c49fe045229bc96ffcf24150e4</sys_id>
+        <sys_metadata>3e05438edbbd0010ccb6df6b5e961964</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_resolution_st_prb_resolution_summary</sys_name>
+        <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+        <sys_scope_delete display_value="">49f11a53f8634c729d60b18e93cd9344</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_3e05438edbbd0010ccb6df6b5e961964</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_3e05438edbbd0010ccb6df6b5e961964">7605438edbbd0010ccb6df6b5e961966</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 06:18:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

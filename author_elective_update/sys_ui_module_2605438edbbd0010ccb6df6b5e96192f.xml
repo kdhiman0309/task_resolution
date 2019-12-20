@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="PRB Resolution Summary">6e05438edbbd0010ccb6df6b5e96192c</application>
+        <filter/>
+        <name>PRB Resolution Summaries</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_resolution.prb_resolution_summary_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 06:17:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2605438edbbd0010ccb6df6b5e96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PRB Resolution Summaries</sys_name>
+        <sys_package display_value="Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+        <sys_update_name>sys_ui_module_2605438edbbd0010ccb6df6b5e96192f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 06:17:04</sys_updated_on>
+        <table>x_snc_resolution_st_prb_resolution_summary</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</application>
+        <file_path/>
+        <instance_id>cb98a80edb398c14387021c4059619a4</instance_id>
+        <instance_name>empkdhiman1</instance_name>
+        <name>sys_ui_module_2605438edbbd0010ccb6df6b5e96192f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="PRB Resolution Summary">6e05438edbbd0010ccb6df6b5e96192c</application><filter/><name>PRB Resolution Summaries</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_snc_resolution.prb_resolution_summary_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 06:17:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2605438edbbd0010ccb6df6b5e96192f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PRB Resolution Summaries</sys_name><sys_package display_value="Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package><sys_policy/><sys_scope display_value="Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope><sys_update_name>sys_ui_module_2605438edbbd0010ccb6df6b5e96192f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 06:17:04</sys_updated_on><table>x_snc_resolution_st_prb_resolution_summary</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1228191698</payload_hash>
+        <record_name>PRB Resolution Summaries</record_name>
+        <reverted_from/>
+        <source>bf9f4dc2db390010ccb6df6b5e961903</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 06:17:04</sys_created_on>
+        <sys_id>6a05438edbbd0010ccb6df6b5e961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f21f3d0ed0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 06:17:04</sys_updated_on>
+        <type>Module</type>
+        <update_guid>a205438e2cbd001057867823b63aa131</update_guid>
+        <update_guid_history>a205438e2cbd001057867823b63aa131:1228191698</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 06:18:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>6fb2baba20894e9ca78614f8a8df2624</sys_id>
+        <sys_metadata>2605438edbbd0010ccb6df6b5e96192f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PRB Resolution Summaries</sys_name>
+        <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+        <sys_scope_delete display_value="">49f11a53f8634c729d60b18e93cd9344</sys_scope_delete>
+        <sys_update_name>sys_ui_module_2605438edbbd0010ccb6df6b5e96192f</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_2605438edbbd0010ccb6df6b5e96192f">6a05438edbbd0010ccb6df6b5e961931</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 06:18:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

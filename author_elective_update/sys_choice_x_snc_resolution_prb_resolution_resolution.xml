@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="resolution" table="x_snc_resolution_prb_resolution" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resolution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work in Progress</label>
+            <language>en</language>
+            <name>x_snc_resolution_prb_resolution</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-19 22:50:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29ce1d82db790010ccb6df6b5e9619a7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 05:37:12</sys_updated_on>
+            <value>Work in Progress</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resolution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fixed/Testing</label>
+            <language>en</language>
+            <name>x_snc_resolution_prb_resolution</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-19 22:51:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eeeedd82db790010ccb6df6b5e961960</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 05:37:03</sys_updated_on>
+            <value>Fixed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resolution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Working as Expected</label>
+            <language>en</language>
+            <name>x_snc_resolution_prb_resolution</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-19 22:52:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f33fd1c2db790010ccb6df6b5e961976</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 05:36:14</sys_updated_on>
+            <value>Working as Expected</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resolution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Re-assigned</label>
+            <language>en</language>
+            <name>x_snc_resolution_prb_resolution</name>
+            <sequence>40</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-19 22:53:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a55f15c2db790010ccb6df6b5e9619de</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 09:10:11</sys_updated_on>
+            <value>Re-assigned</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resolution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Can't Confirm</label>
+            <language>en</language>
+            <name>x_snc_resolution_prb_resolution</name>
+            <sequence>50</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-19 22:52:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ffe5d82db790010ccb6df6b5e9619cb</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 05:36:28</sys_updated_on>
+            <value>Can't Confirm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resolution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Duplicate</label>
+            <language>en</language>
+            <name>x_snc_resolution_prb_resolution</name>
+            <sequence>60</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-19 22:52:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>772f91c2db790010ccb6df6b5e9619ee</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 05:36:37</sys_updated_on>
+            <value>Duplicate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resolution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Won't Fix</label>
+            <language>en</language>
+            <name>x_snc_resolution_prb_resolution</name>
+            <sequence>70</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-19 22:53:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae7f95c2db790010ccb6df6b5e961977</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 05:36:42</sys_updated_on>
+            <value>Won't Fix</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>resolution</element>
+            <name>x_snc_resolution_prb_resolution</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-19 22:50:35</sys_created_on>
+            <sys_id>5ede1d82db790010ccb6df6b5e96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>resolution</sys_name>
+            <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+            <sys_update_name>sys_choice_x_snc_resolution_prb_resolution_resolution</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-19 22:50:35</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

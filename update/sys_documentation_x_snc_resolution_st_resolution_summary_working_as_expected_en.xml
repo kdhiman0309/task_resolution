@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="working_as_expected" label="Working as Expected" language="en" table="x_snc_resolution_st_resolution_summary">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>working_as_expected</element>
+            <help/>
+            <hint/>
+            <label>Working as Expected</label>
+            <language>en</language>
+            <name>x_snc_resolution_st_resolution_summary</name>
+            <plural>Working as Expected</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 06:20:22</sys_created_on>
+            <sys_id>07c58f8edbbd0010ccb6df6b5e96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Working as Expected</sys_name>
+            <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_resolution_st_resolution_summary_working_as_expected_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 06:20:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

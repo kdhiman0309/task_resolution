@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Snc Resolution Prb Resolution" max_length="40" name="u_imp_tmpl_x_snc_resolution_prb_resolution" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Assigned to" label="Assigned to" max_length="32" name="u_assigned_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Defect" label="Defect" max_length="40" name="u_defect" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Group" label="Group" max_length="32" name="u_group" type="string"/>
+        <element attributes="import_attribute_name=Incident Count" label="Incident Count" max_length="40" name="u_incident_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Notes" label="Notes" max_length="4000" name="u_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Picked Week" label="Picked Week" max_length="40" name="u_picked_week" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Problem" label="Problem" max_length="40" name="u_problem" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Resolution" label="Resolution" max_length="40" name="u_resolution" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Resolved Week" label="Resolved Week" max_length="40" name="u_resolved_week" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Security PRB" label="Security PRB" max_length="40" name="u_security_prb" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short Description" label="Short Description" max_length="255" name="u_short_description" type="string"/>
+    </element>
+</database>

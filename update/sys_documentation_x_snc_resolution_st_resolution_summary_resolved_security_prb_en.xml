@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="resolved_security_prb" label="Resolved Security PRB" language="en" table="x_snc_resolution_st_resolution_summary">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>resolved_security_prb</element>
+            <help/>
+            <hint/>
+            <label>Resolved Security PRB</label>
+            <language>en</language>
+            <name>x_snc_resolution_st_resolution_summary</name>
+            <plural>Resolved Security PRBs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 06:20:22</sys_created_on>
+            <sys_id>3ec58f8edbbd0010ccb6df6b5e961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Resolved Security PRB</sys_name>
+            <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_resolution_st_resolution_summary_resolved_security_prb_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 06:20:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

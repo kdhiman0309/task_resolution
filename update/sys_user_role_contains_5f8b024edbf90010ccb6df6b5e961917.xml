@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_snc_resolution.basic" name="x_snc_resolution.basic">75bf4dcadbf50010ccb6df6b5e9619b5</contains>
+        <role display_value="x_snc_resolution.resolution_admin" name="x_snc_resolution.resolution_admin">cb5b8e0edbf90010ccb6df6b5e96196c</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 02:05:53</sys_created_on>
+        <sys_id>5f8b024edbf90010ccb6df6b5e961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_resolution.basic.x_snc_resolution.resolution_admin</sys_name>
+        <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+        <sys_update_name>sys_user_role_contains_5f8b024edbf90010ccb6df6b5e961917</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 02:05:53</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

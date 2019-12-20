@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="1835a3cadb314010ccb6df6b5e961948" sys_domain="global" table="x_snc_resolution_st_resolution_summary" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tasks_picked</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 08:37:34</sys_created_on>
+            <sys_id>6435a3cadb314010ccb6df6b5e961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_resolution_st_resolution_summary" sys_domain="global" view="Default view">1835a3cadb314010ccb6df6b5e961948</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 08:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 08:37:34</sys_created_on>
+            <sys_id>e435a3cadb314010ccb6df6b5e961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_resolution_st_resolution_summary" sys_domain="global" view="Default view">1835a3cadb314010ccb6df6b5e961948</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 08:37:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tasks_resolved</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 08:37:34</sys_created_on>
+            <sys_id>6835a3cadb314010ccb6df6b5e961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_resolution_st_resolution_summary" sys_domain="global" view="Default view">1835a3cadb314010ccb6df6b5e961948</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 08:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_snc_resolution_st_resolution_summary</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 08:37:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1835a3cadb314010ccb6df6b5e961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Section</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+            <sys_update_name>sys_ui_section_1835a3cadb314010ccb6df6b5e961948</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 08:37:33</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</application>
+        <file_path/>
+        <instance_id>cb98a80edb398c14387021c4059619a4</instance_id>
+        <instance_name>empkdhiman1</instance_name>
+        <name>sys_ui_section_1835a3cadb314010ccb6df6b5e961948</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="1835a3cadb314010ccb6df6b5e961948" sys_domain="global" table="x_snc_resolution_st_resolution_summary" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>tasks_picked</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 08:37:34</sys_created_on><sys_id>6435a3cadb314010ccb6df6b5e961972</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_resolution_st_resolution_summary" sys_domain="global" view="Default view">1835a3cadb314010ccb6df6b5e961948</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 08:37:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 08:37:34</sys_created_on><sys_id>e435a3cadb314010ccb6df6b5e961972</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_resolution_st_resolution_summary" sys_domain="global" view="Default view">1835a3cadb314010ccb6df6b5e961948</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 08:37:34</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>tasks_resolved</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 08:37:34</sys_created_on><sys_id>6835a3cadb314010ccb6df6b5e961972</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_resolution_st_resolution_summary" sys_domain="global" view="Default view">1835a3cadb314010ccb6df6b5e961948</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 08:37:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_snc_resolution_st_resolution_summary</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 08:37:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1835a3cadb314010ccb6df6b5e961948</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Section</sys_name><sys_overrides/><sys_package display_value="Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package><sys_policy/><sys_scope display_value="Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope><sys_update_name>sys_ui_section_1835a3cadb314010ccb6df6b5e961948</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 08:37:33</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>813169870</payload_hash>
+        <record_name>Resolution Summary</record_name>
+        <reverted_from/>
+        <source>bf9f4dc2db390010ccb6df6b5e961903</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 08:37:34</sys_created_on>
+        <sys_id>2035a3cadb314010ccb6df6b5e961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f227470fd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 08:37:34</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>a835a3cae931401042fd3b2d2eeca773</update_guid>
+        <update_guid_history>a835a3cae931401042fd3b2d2eeca773:813169870</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 08:37:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>00a6b428645442b4800792ade9361a39</sys_id>
+        <sys_metadata>1835a3cadb314010ccb6df6b5e961948</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+        <sys_parent display_value="Resolution Summary">76550b8edbbd0010ccb6df6b5e96193e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+        <sys_scope_delete display_value="">49f11a53f8634c729d60b18e93cd9344</sys_scope_delete>
+        <sys_update_name>sys_ui_section_1835a3cadb314010ccb6df6b5e961948</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_1835a3cadb314010ccb6df6b5e961948">2035a3cadb314010ccb6df6b5e961974</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 08:37:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

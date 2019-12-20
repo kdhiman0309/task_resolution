@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_snc_resolution_st_resolution_summary</basic_apply_to>
+        <basic_query_from>x_snc_resolution_prb_resolution</basic_query_from>
+        <insert_callback/>
+        <name>Picked PRBs</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	current.addQuery("picked_week", parent.week);
+
+})(current, parent);]]></query_with>
+        <reference_field>assigned_to</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 08:07:28</sys_created_on>
+        <sys_id>334e9b06db314010ccb6df6b5e9619fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Picked PRBs</sys_name>
+        <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+        <sys_update_name>sys_relationship_334e9b06db314010ccb6df6b5e9619fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 08:07:39</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=334e9b06db314010ccb6df6b5e9619fb"/>
+</record_update>

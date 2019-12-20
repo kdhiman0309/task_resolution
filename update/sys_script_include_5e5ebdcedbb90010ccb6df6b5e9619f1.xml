@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_resolution.WeekEndUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>WeekEndUtil</name>
+        <script><![CDATA[var WeekEndUtil = Class.create();
+WeekEndUtil.prototype = {
+    initialize: function() {
+    },
+	
+	friday: function() {
+        var gdt = new GlideDateTime(gs.endOfThisWeek());
+        var gd = gdt.getDate();
+        gd.addDaysUTC(-2);
+		return gd.getUTCValue();
+    },
+	
+	isValid: function(date) {
+		var gd = new GlideDate();
+		gd.setValue(date);
+		return gd.getDayOfWeekLocalTime() == 5;
+	},
+    type: 'WeekEndUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 01:09:08</sys_created_on>
+        <sys_id>5e5ebdcedbb90010ccb6df6b5e9619f1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>WeekEndUtil</sys_name>
+        <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+        <sys_update_name>sys_script_include_5e5ebdcedbb90010ccb6df6b5e9619f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 01:12:49</sys_updated_on>
+    </sys_script_include>
+</record_update>

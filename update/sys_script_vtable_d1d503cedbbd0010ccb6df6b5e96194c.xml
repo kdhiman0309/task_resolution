@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>60</cache_ttl>
+        <name>Resolution Summary</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+
+    addRows();
+
+
+    function addRows() {
+        var data = getWeeksData();
+        var keys = Object.keys(data);
+        for (var i in keys) {
+            var week = keys[i];
+            addRow(week, data[week]);
+        }
+    }
+
+    function addRow(week, weekCounts) {
+        var row = {};
+        row.week = week;
+        row.sys_id = week;
+        row.can_t_confirm = weekCounts["Can't Confirm"];
+        row.work_in_progress = weekCounts["Work in Progress"];
+        row.testing_fixed = weekCounts["Fixed"];
+        row.working_as_expected = weekCounts["Working as Expected"];
+        row.re_assigned = weekCounts["Reassigned"];
+        row.duplicate = weekCounts["Duplicate"];
+        row.won_t_fix = weekCounts["Won't Fix"];
+        row.prbs_picked = weekCounts["prbs_picked"];
+        row.resolved_external = weekCounts["resolved_external"];
+        row.resolved_internal = weekCounts["resolved_internal"];
+        row.total_resolved = weekCounts["total_resolved"];
+        row.resolved_security_prb = weekCounts["resolved_security_prb"];
+        row.tasks_picked = weekCounts["tasks_picked"];
+        row.tasks_resolved = weekCounts["tasks_resolved"];
+        v_table.addRow(row);
+    }
+
+    function getWeeksData() {
+        var weeksData = {};
+        generatePRBsData(weeksData);
+        generateCaseData(weeksData);
+        return weeksData;
+    }
+
+    function generatePRBsData(weeksData) {
+        var gr = new GlideRecord("x_snc_resolution_prb_resolution");
+        if (v_query.isGet()) {
+            gr.addQuery("picked_week=" + v_query.getSysId() + "^ORresolved_week=" + v_query.getSysId());
+        }
+        gr.query();
+        while (gr.next()) {
+            incrResolved(gr, weeksData);
+            incrPicked(gr, weeksData);
+        }
+    }
+
+    function generateCaseData(weeksData) {
+        var gr = new GlideRecord("x_snc_resolution_case_resolution");
+        if (v_query.isGet()) {
+            gr.addQuery("picked_week=" + v_query.getSysId() + "^ORresolved_week=" + v_query.getSysId());
+        }
+        gr.query();
+        while (gr.next()) {
+            incrCasePicked(gr, weeksData);
+            incrCaseResolved(gr, weeksData);
+        }
+    }
+
+    function incrPicked(gr, weeksData) {
+        var week = gr.getValue("picked_week");
+        var weekCounts = getWeekCounts(weeksData, week);
+        incr(weekCounts, "prbs_picked");
+    }
+
+    function incrResolved(gr, weeksData) {
+        var week = gr.getValue("resolved_week");
+        if (week + '' == '')
+            return;
+
+        var weekCounts = getWeekCounts(weeksData, week);
+
+        var resolution = gr.getValue("resolution");
+        incr(weekCounts, resolution);
+        incr(weekCounts, "total_resolved");
+        if (gr.getValue("incident_count") != "0")
+            incr(weekCounts, "resolved_external");
+        else
+            incr(weekCounts, "resolved_internal");
+
+        if (gr.getValue("security_prb") == "1")
+            incr(weekCounts, "resolved_security_prb");
+    }
+
+
+    function incrCasePicked(gr, weeksData) {
+        var week = gr.getValue("picked_week");
+        var weekCounts = getWeekCounts(weeksData, week);
+        incr(weekCounts, "tasks_picked");
+    }
+
+    function incrCaseResolved(gr, weeksData) {
+        var week = gr.getValue("resolved_week");
+        if (week + '' == '')
+            return;
+
+        var weekCounts = getWeekCounts(weeksData, week);
+        incr(weekCounts, "tasks_resolved");
+    }
+
+
+    function getWeekCounts(weeksData, week) {
+        if (weeksData[week] == null)
+            weeksData[week] = {};
+        return weeksData[week];
+    }
+
+    function incr(obj, field) {
+        if (obj[field] == null)
+            obj[field] = 1;
+        else
+            obj[field] += 1;
+    }
+
+
+
+})(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 06:22:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d1d503cedbbd0010ccb6df6b5e96194c</sys_id>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_name>Resolution Summary</sys_name>
+        <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+        <sys_update_name>sys_script_vtable_d1d503cedbbd0010ccb6df6b5e96194c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 08:43:42</sys_updated_on>
+        <table>x_snc_resolution_st_resolution_summary</table>
+    </sys_script_vtable>
+</record_update>

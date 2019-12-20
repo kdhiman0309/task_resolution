@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="PRB Resolution Summary">6e05438edbbd0010ccb6df6b5e961926</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>PRB Resolution Summaries</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_resolution_st_prb_resolution_summary</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_snc_resolution.prb_resolution_summary_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 06:17:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6205438edbbd0010ccb6df6b5e96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PRB Resolution Summaries</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+        <sys_update_name>sys_app_module_6205438edbbd0010ccb6df6b5e96192a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 06:17:04</sys_updated_on>
+        <timeline_page/>
+        <title>PRB Resolution Summaries</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</application>
+        <file_path/>
+        <instance_id>cb98a80edb398c14387021c4059619a4</instance_id>
+        <instance_name>empkdhiman1</instance_name>
+        <name>sys_app_module_6205438edbbd0010ccb6df6b5e96192a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="PRB Resolution Summary">6e05438edbbd0010ccb6df6b5e961926</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>PRB Resolution Summaries</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_resolution_st_prb_resolution_summary</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_snc_resolution.prb_resolution_summary_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 06:17:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6205438edbbd0010ccb6df6b5e96192a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PRB Resolution Summaries</sys_name><sys_overrides/><sys_package display_value="Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package><sys_policy/><sys_scope display_value="Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope><sys_update_name>sys_app_module_6205438edbbd0010ccb6df6b5e96192a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 06:17:04</sys_updated_on><timeline_page/><title>PRB Resolution Summaries</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>783760088</payload_hash>
+        <record_name>PRB Resolution Summaries</record_name>
+        <reverted_from/>
+        <source>bf9f4dc2db390010ccb6df6b5e961903</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 06:17:04</sys_created_on>
+        <sys_id>e205438edbbd0010ccb6df6b5e96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f21f3d0460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 06:17:04</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2e05438e3ebd001040639e1764ec432b</update_guid>
+        <update_guid_history>2e05438e3ebd001040639e1764ec432b:783760088</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="PRB Resolution Summaries">e955878edbbd0010ccb6df6b5e9619ab</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 06:18:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>74691040f5d9429fbe07cd8e15dd5831</sys_id>
+        <sys_metadata>6205438edbbd0010ccb6df6b5e96192a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PRB Resolution Summaries</sys_name>
+        <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+        <sys_scope_delete display_value="">49f11a53f8634c729d60b18e93cd9344</sys_scope_delete>
+        <sys_update_name>sys_app_module_6205438edbbd0010ccb6df6b5e96192a</sys_update_name>
+        <sys_update_version display_value="sys_app_module_6205438edbbd0010ccb6df6b5e96192a">e205438edbbd0010ccb6df6b5e96192c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 06:18:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

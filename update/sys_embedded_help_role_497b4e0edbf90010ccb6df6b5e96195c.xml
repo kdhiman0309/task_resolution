@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_snc_resolution.resolution_admin" name="x_snc_resolution.resolution_admin">cb5b8e0edbf90010ccb6df6b5e96196c</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 02:05:28</sys_created_on>
+        <sys_id>497b4e0edbf90010ccb6df6b5e96195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cb5b8e0edbf90010ccb6df6b5e96196c</sys_name>
+        <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+        <sys_update_name>sys_embedded_help_role_497b4e0edbf90010ccb6df6b5e96195c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 02:05:28</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

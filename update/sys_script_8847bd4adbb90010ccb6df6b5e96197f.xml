@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_resolution_prb_resolution</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>Resolution can not be Work in Progress.</p>]]></message>
+        <name>Check resolved</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    if (current.resolution == "Work in Progress" && current.resolved_week) {
+        current.setAbortAction(true);
+        gs.addErrorMessage("Resolution can not be " + current.getDisplayValue("resolution"));
+		return;
+    }
+
+    if (current.resolution == "Re-assigned" && (current.group.getDisplayValue() == "Dev-Core Platform" || current.group.getDisplayValue() == "Dev-Platform Encore")) {
+        current.setAbortAction(true);
+        gs.addErrorMessage("Group can not be " + current.getDisplayValue("group"));
+		return;
+    }
+
+    if (current.resolution != "Work in Progress") {
+        if (current.resolved_week == "")
+            current.resolved_week = gs.endOfThisWeek();
+        else
+            current.resolved_week = gs.endOfWeek(current.resolved_week);
+    }
+
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 00:38:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8847bd4adbb90010ccb6df6b5e96197f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Check resolved</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+        <sys_update_name>sys_script_8847bd4adbb90010ccb6df6b5e96197f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 09:11:44</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=8847bd4adbb90010ccb6df6b5e96197f"/>
+</record_update>
