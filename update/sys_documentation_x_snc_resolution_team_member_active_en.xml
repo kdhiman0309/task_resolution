@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="prbs_picked" label="PRBs Picked" language="en" table="x_snc_resolution_st_resolution_summary">
+    <sys_documentation element="active" label="Active" language="en" table="x_snc_resolution_team_member">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>prbs_picked</element>
+            <element>active</element>
             <help/>
             <hint/>
-            <label>PRBs Picked</label>
+            <label>Active</label>
             <language>en</language>
-            <name>x_snc_resolution_st_resolution_summary</name>
-            <plural>PRBs Picked</plural>
+            <name>x_snc_resolution_team_member</name>
+            <plural>Active</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-20 06:20:22</sys_created_on>
-            <sys_id>fec58f8edbbd0010ccb6df6b5e961943</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>PRBs Picked</sys_name>
+            <sys_created_on>2019-12-21 01:27:42</sys_created_on>
+            <sys_id>396cc716db3d4010ccb6df6b5e9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Active</sys_name>
             <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
             <sys_policy/>
             <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
-            <sys_update_name>sys_documentation_x_snc_resolution_st_resolution_summary_prbs_picked_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_snc_resolution_team_member_active_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-21 01:24:38</sys_updated_on>
+            <sys_updated_on>2019-12-21 01:27:42</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

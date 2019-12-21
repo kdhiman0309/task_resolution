@@ -2,7 +2,7 @@
     <element label="Resolution Summary" max_length="40" name="x_snc_resolution_st_resolution_summary" type="collection">
         <element default="0" label="Can't Confirm" max_length="40" name="can_t_confirm" type="integer"/>
         <element default="0" label="Duplicate" max_length="40" name="duplicate" type="integer"/>
-        <element default="0" label="PRBs       Picked" max_length="40" name="prbs_picked" type="integer"/>
+        <element default="0" label="PRBs Picked" max_length="40" name="prbs_picked" type="integer"/>
         <element default="0" label="Resolved (External)" max_length="40" name="resolved_external" type="integer"/>
         <element default="0" label="Resolved (Internal)" max_length="40" name="resolved_internal" type="integer"/>
         <element default="0" label="Resolved Security PRB" max_length="40" name="resolved_security_prb" type="integer"/>
