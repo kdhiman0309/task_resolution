@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 01:41:24</sys_created_on>
+        <sys_id>68f54e86dbf90010ccb6df6b5e9619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_resolution_case_resolution.x_snc_resolution.case_resolution_user</sys_name>
+        <sys_package display_value="Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+        <sys_security_acl display_value="x_snc_resolution_case_resolution">e8f54e86dbf90010ccb6df6b5e9619bc</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_68f54e86dbf90010ccb6df6b5e9619bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 01:41:24</sys_updated_on>
+        <sys_user_role display_value="x_snc_resolution.case_resolution_user" name="x_snc_resolution.case_resolution_user">d4f50a86dbf90010ccb6df6b5e9619b5</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</application>
+        <file_path/>
+        <instance_id>cb98a80edb398c14387021c4059619a4</instance_id>
+        <instance_name>empkdhiman1</instance_name>
+        <name>sys_security_acl_role_68f54e86dbf90010ccb6df6b5e9619bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 01:41:24</sys_created_on><sys_id>68f54e86dbf90010ccb6df6b5e9619bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_resolution_case_resolution.x_snc_resolution.case_resolution_user</sys_name><sys_package display_value="Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package><sys_policy/><sys_scope display_value="Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope><sys_security_acl display_value="x_snc_resolution_case_resolution">e8f54e86dbf90010ccb6df6b5e9619bc</sys_security_acl><sys_update_name>sys_security_acl_role_68f54e86dbf90010ccb6df6b5e9619bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 01:41:24</sys_updated_on><sys_user_role display_value="x_snc_resolution.case_resolution_user" name="x_snc_resolution.case_resolution_user">d4f50a86dbf90010ccb6df6b5e9619b5</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-589412659</payload_hash>
+        <record_name>x_snc_resolution_case_resolution.x_snc_resolution.case_resolution_user</record_name>
+        <reverted_from/>
+        <source>bf9f4dc2db390010ccb6df6b5e961903</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 01:41:24</sys_created_on>
+        <sys_id>20f54e86dbf90010ccb6df6b5e9619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f20f771240000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 01:41:24</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>68f54e86cbf9001009744b1959404fc1</update_guid>
+        <update_guid_history>68f54e86cbf9001009744b1959404fc1:-589412659</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_resolution_case_resolution.x_snc_resolution.case_resolution_user">51ef1506db9e4850df41f1471d96191f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-13 19:26:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>be86df4c50f14a9cb81009af282002f1</sys_id>
+        <sys_metadata>68f54e86dbf90010ccb6df6b5e9619bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_resolution_case_resolution.x_snc_resolution.case_resolution_user</sys_name>
+        <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+        <sys_parent display_value="x_snc_resolution_case_resolution">e8f54e86dbf90010ccb6df6b5e9619bc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+        <sys_scope_delete display_value="">49f11a53f8634c729d60b18e93cd9344</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_68f54e86dbf90010ccb6df6b5e9619bf</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_68f54e86dbf90010ccb6df6b5e9619bf">20f54e86dbf90010ccb6df6b5e9619c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-13 19:26:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

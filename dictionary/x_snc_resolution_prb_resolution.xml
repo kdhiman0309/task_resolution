@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" label="PRB Resolution" max_length="40" name="x_snc_resolution_prb_resolution" type="collection">
         <element label="Assigned to" max_length="32" name="assigned_to" reference="x_snc_resolution_team_member" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
-        <element display="true" label="Defect" max_length="40" name="defect" type="string"/>
+        <element display="true" label="Defect" max_length="40" name="defect" type="string" unique="true"/>
         <element label="Group" max_length="32" name="group" reference="x_snc_resolution_group" type="reference"/>
         <element label="Incident Count" max_length="40" name="incident_count" type="integer"/>
         <element label="Notes" max_length="4000" name="notes" type="string"/>
@@ -22,9 +22,12 @@
         <element label="Security PRB" max_length="40" name="security_prb" type="boolean"/>
         <element label="Short Description" max_length="255" name="short_description" type="string"/>
         <index name="index">
-            <element name="assigned_to"/>
+            <element name="defect"/>
         </index>
         <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index3">
             <element name="group"/>
         </index>
     </element>

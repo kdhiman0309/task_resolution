@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dashboards">
+    <pa_dashboards action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <breakdown_source/>
+        <color>#ffffff</color>
+        <group/>
+        <groups/>
+        <is_breakdown>false</is_breakdown>
+        <managed_breakdown/>
+        <managed_publisher/>
+        <name>Resolution Summary</name>
+        <no_tabs>false</no_tabs>
+        <order/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <restrict_to_roles/>
+        <role_override>true</role_override>
+        <roles/>
+        <should_migrate_permissions>false</should_migrate_permissions>
+        <sys_class_name>pa_dashboards</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-21 02:05:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>caf4575edb3d4010ccb6df6b5e9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resolution Summary</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Task Resolution" source="x_snc_resolution">a39f4dc2db390010ccb6df6b5e961901</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Task Resolution">a39f4dc2db390010ccb6df6b5e961901</sys_scope>
+        <sys_update_name>pa_dashboards_caf4575edb3d4010ccb6df6b5e9619f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-21 02:05:23</sys_updated_on>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_dashboards>
+</record_update>
